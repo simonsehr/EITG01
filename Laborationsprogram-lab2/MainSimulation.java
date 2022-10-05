@@ -109,21 +109,14 @@ public class MainSimulation extends Global{
 			}*/
 
 		//iii
-
-			String Queue1 = "kö1";
-			String Queue2 = "kö2";
-			String Queue3 = "kö3";
-			String Queue4 = "kö4";
-			String Queue5 = "kö5";
-
 			int max  = Integer.MAX_VALUE;
 
 			Map<String, Integer> map = new HashMap<String, Integer>();
-			map.put(Queue1, Q1.numberInQueue);
-			map.put(Queue2, Q2.numberInQueue);
-			map.put(Queue3, Q3.numberInQueue);
-			map.put(Queue4, Q4.numberInQueue);
-			map.put(Queue5, Q5.numberInQueue);
+			map.put("kö1", Q1.numberInQueue);
+			map.put("kö2", Q2.numberInQueue);
+			map.put("kö3", Q3.numberInQueue);
+			map.put("kö4", Q4.numberInQueue);
+			map.put("kö5", Q5.numberInQueue);
 
 			String QueueKey = null;
 
